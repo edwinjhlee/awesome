@@ -1,4 +1,3 @@
-
 ---
 name: New Awesome Library
 about: Recommend a new awesome library to the community
