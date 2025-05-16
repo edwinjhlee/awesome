@@ -18,10 +18,10 @@ X-CMD offers a terminal-based module leveraging shell, awk, and fzf for efficien
 
 | Language                               | README                                                        | Total |
 | :----------------------------------- | :------------------------------------------------------------ | :---- |
-| [Python](https://a.x-cmd.com/python) | [README](https://github.com/edwinjhlee/awesome/lang/python)   | 100   |
-| [Deno](https://a.x-cmd.com/deno)     | [README](https://github.com/edwinjhlee/awesome/lang/deno)     | 100   |
-| [Node](https://a.x-cmd.com/node)     | [README](https://github.com/edwinjhlee/awesome/lang/node)     | 100   |
-| [Bun](https://a.x-cmd.com/bun)       | [README](https://github.com/edwinjhlee/awesome/lang/bun)      | 100   |
-| [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100   |
-| [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100   |
+| [Python](https://a.x-cmd.com/python) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/python)   | 100   |
+| [Deno](https://a.x-cmd.com/deno)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/deno)     | 100   |
+| [Node](https://a.x-cmd.com/node)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/node)     | 100   |
+| [Bun](https://a.x-cmd.com/bun)       | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/bun)      | 100   |
+| [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/java)     | 100   |
+| [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/kotlin)   | 100   |
 
