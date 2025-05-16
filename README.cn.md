@@ -1,79 +1,122 @@
-# AWESOME LIST
+# AWESOME 列表
 
-## Language Awesome List
+## 编程语言 AWESOME 列表
 
-| Language                              | README                                                        | Total  |
-| ---                                   | ---                                                           | ---    |
-| [python](https://a.x-cmd.com/python)  | [README](https://github.com/edwinjhlee/awesome/lang/python)   | 100    |
-| [deno](https://a.x-cmd.com/deno)      | [README](https://github.com/edwinjhlee/awesome/lang/deno)     | 100    |
-| [node](https://a.x-cmd.com/node)      | [README](https://github.com/edwinjhlee/awesome/lang/node)     | 100    |
-| [bun](https://a.x-cmd.com/bun)        | [README](https://github.com/edwinjhlee/awesome/lang/bun)      | 100    |
-| [java](https://a.x-cmd.com/java)      | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100    |
-| [kotlin](https://a.x-cmd.com/kotlin)  | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100    |
+| 语言                               | README                                                        | 总数   |
+| :----------------------------------- | :------------------------------------------------------------ | :----- |
+| [Python](https://a.x-cmd.com/python) | [README](https://github.com/edwinjhlee/awesome/lang/python)   | 100    |
+| [Deno](https://a.x-cmd.com/deno)     | [README](https://github.com/edwinjhlee/awesome/lang/deno)     | 100    |
+| [Node](https://a.x-cmd.com/node)     | [README](https://github.com/edwinjhlee/awesome/lang/node)     | 100    |
+| [Bun](https://a.x-cmd.com/bun)       | [README](https://github.com/edwinjhlee/awesome/lang/bun)      | 100    |
+| [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100    |
+| [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100    |
 
+## 贡献
 
-## How to contribute using Github Website
+有三种方式可以为此优秀列表做出贡献：
 
-You have to login your github account.
+1.  **使用 GitHub 网站（推荐）**
+2.  **使用 Pull Requests（推荐）**
+3.  **使用 Issues（最简单）**
 
-Take `github.com/urfave/cli` as example. And and categorize it as `argument`
+### 1. 通过 GitHub 网站贡献 PR
 
-1. Click `Add file` then click `Create new file`. Then it will ask you to fork the project into your own github project.
-2. The file path should be `cli-[urfave].yml`
-3. Add the content in the following format. Then commit.
+此方法适用于小型贡献，不需要任何本地设置。
 
-```yml
-name: urfave/cli
-repo: github.com/urfave/cli
+1.  **登录：** 确保您已登录到您的 GitHub 帐户。
+2.  **创建新文件：**
+    *   点击 "Add file" -> "Create new file"。 如果您尚未 fork 该存储库到您的帐户，系统将提示您 fork。
+3.  **文件命名：**
+    *   文件路径应遵循以下模式：`[category]-[repo_owner].yml`。
+    *   **示例：** 对于分类为 `cli` 的 `github.com/urfave/cli`，文件名将为 `cli-[urfave].yml`。
+4.  **文件内容：**
+    *   使用以下 YAML 格式：
 
-desc: A simple, fast, and fun package for building command line apps in Go
-desc-zh: # Optional, if you can translate it to Chinese. You can left it to blank and let the community to fill in.
+    ```yaml
+    name: urfave/cli
+    repo: github.com/urfave/cli
+    desc: A simple, fast, and fun package for building command line apps in Go
+    desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空。
+    ```
+5.  **提交更改：** 使用描述性消息提交新文件。
+6.  **创建 Pull Request：**
+    *   转到 [https://github.com/edwinjhlee/awesome/pulls](https://github.com/edwinjhlee/awesome/pulls) 并点击 "New pull request"。
+    *   选择您 fork 的存储库中包含您的更改的分支。
+    *   为您的 pull request 添加清晰的标题和描述。
+
+维护人员将审查您的 pull request，并在必要时提供反馈，如果符合标准，则会合并它。
+
+### 2. 通过 Pull Requests 贡献（推荐）
+
+此方法更适合于较大的贡献，或者如果您喜欢使用本地开发环境。
+
+**步骤 1：Fork 和克隆**
+
+1.  将此存储库 fork 到您的 GitHub 帐户。
+2.  将 fork 的存储库克隆到您的本地计算机：
+
+    ```bash
+    git clone https://github.com/<your-username>/awesome.git
+    cd awesome
+    ```
+
+**步骤 2：创建新文件并添加内容**
+
+1.  **文件位置：** 在 `lang` 目录中相应的类别目录中创建一个新的 YAML 文件。
+    *   **示例：** 对于 `github.com/urfave/cli`（Go 库，类别：`cli`），文件路径将为 `lang/go/cli/cli-[urfave].yml`。
+    *   **对于 codeberg.org：** 如果存储库托管在 codeberg.org 上，请在文件名中包含 `[codeberg.org]`：`cli-[urfave][codeberg.org].yml`
+
+2.  **文件内容：** 使用以下 YAML 格式：
+
+    ```yaml
+    name: urfave/cli
+    repo: github.com/urfave/cli
+    desc: A simple, fast, and fun package for building command line apps in Go
+    desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空。
+    ```
+
+**步骤 3：提交并推送更改**
+
+1.  将新文件添加到您的 Git 存储库：
+
+    ```bash
+    git add lang/go/cli/cli-[urfave].yml
+    ```
+
+2.  使用描述性消息提交您的更改：
+
+    ```bash
+    git commit -m "Add urfave/cli to awesome-go (cli category)"
+    ```
+
+3.  将您的更改推送到您 fork 的存储库：
+
+    ```bash
+    git push origin main
+    ```
+
+**步骤 4：创建 Pull Request**
+
+1.  转到 GitHub 上您 fork 的存储库。
+2.  点击 "Contribute" 按钮，然后点击 "Open pull request"。
+3.  确保基本存储库是 `edwinjhlee/awesome`，并且比较分支是您的分支。
+4.  为您的 pull request 添加清晰的标题和描述。
+
+**[可选] 步骤 5：在本地查看结果**
+
+如果您安装了 [x-cmd](https://x-cmd.com)，您可以在提交 pull request 之前预览生成的 README 文件：
+
+```bash
+x ws gen go
 ```
 
-After commit it. Then you need to create a Pull Request.
+这将生成 `go/README.md` 文件，允许您查看您的更改。
 
-1. Go to `https://github.com/edwinjhlee/awesome/pulls`, Click `New pull request`
-2. Choose the branch of your repo, then add a message.
+### 3. 通过 Issues 贡献（最简单）
 
-Now you can wait for the manage dev team to review and merge it. It there is a problem, we can communicate under this PR.
+如果您不确定如何创建 pull request，您可以通过创建 issue 来建议新的库。
 
-TODO: add a Video demo ...
+1.  在此处创建一个新的 issue [here](https://github.com/edwinjhlee/awsome/issues) 并选择 "[new library]" 模板。
+2.  填写包含存储库名称和简短描述的表单。
 
-## How To contribute using PR
-
-### Step 1: fork and clone
-
-1. First you have to fork this repo to your own account.
-2. clone this repo into your folder.
-
-### Step 2: Change and commit
-
-Take urfave/cli as an example. You want to add `github.com/urfave/cli` to `awesome go`, and categorize it as `argument`
-
-You need to create a file in the folder -> `lang/go/argument`, the file name should be `cli-[urfave].yml`. If the repo is in codeberg.org, then the file should be `cli-[urfave][codeberg.org].yml`
-
-The file is organized in yml format, which is quite simple:
-
-```yml
-name: urfave/cli
-repo: github.com/urfave/cli
-
-desc: A simple, fast, and fun package for building command line apps in Go
-desc-zh: # Optional, if you can translate it to Chinese. You can left it to blank and let the community to fill in.
-```
-
-After it , you can commit. 
-
-**[Optinal] Review the result**
-
-You need to have [x-cmd](https://x-cmd.com) installed in your computer.
-You can run `x ws gen go`. Then you can preview the newly generated go/readme.md ~
-
-
-
-## How to contribute using ISSUE
-
-1. Create an issue [here](https://github.com/edwinjhlee/awsome/issue), choose [new library]
-2. Fill the form by providing repo name, a simple description.
-
-This is the most simple way, however, we would prefer you contribute using PR.
+虽然这是最简单的方法，但强烈建议通过 pull request 贡献。
