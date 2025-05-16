@@ -16,12 +16,12 @@ X-CMD 提供了一个基于终端的模块，利用 shell、awk 和 fzf 实现�
 
 ## 💻 编程语言 AWESOME 列表
 
-| 语言                                  | README                                                                 | 总数   |
-| :----------------------------------- | :------------------------------------------------------------          | :----- |
-| [Python](https://a.x-cmd.com/python) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/python)   | 100    |
-| [Deno](https://a.x-cmd.com/deno)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/deno)     | 100    |
-| [Node](https://a.x-cmd.com/node)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/node)     | 100    |
-| [Bun](https://a.x-cmd.com/bun)       | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/bun)      | 100    |
-| [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/java)     | 100    |
-| [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/kotlin)   | 100    |
+| 语言                                  | README                                                                    | 开始贡献                                                                    | Total |
+| :----------------------------------- | :------------------------------------------------------------              | ---                                                                               | :---- |
+| [Python](https://a.x-cmd.com/python) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/python)      | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/python/_)   | 100   |
+| [Deno](https://a.x-cmd.com/deno)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/deno)        | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/deno/_)     | 100   |
+| [Node](https://a.x-cmd.com/node)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/node)        | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/node/_)     | 100   |
+| [Bun](https://a.x-cmd.com/bun)       | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/bun)         | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/bun/_)      | 100   |
+| [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/java)        | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/java/_)     | 100   |
+| [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/tree/main/lang/kotlin)      | [开始贡献](https://github.com/edwinjhlee/awesome/tree/main/lang/kotlin/_)   | 100   |
 
