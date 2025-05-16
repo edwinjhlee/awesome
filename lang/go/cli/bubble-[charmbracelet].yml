@@ -1,0 +1,7 @@
+
+name: charmbracelet/bubble
+repo: github.com/charmbracelet/bubble
+
+desc: A powerful and flexible library for building terminal applications in Go
+desc-zh: 一个强大而灵活的库，用于在 Go 中构建终端应用程序
+
