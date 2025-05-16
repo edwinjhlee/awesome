@@ -1,6 +1,6 @@
 # Awesome Lists
 
-## Programming Language AWESOME Lists
+## 💻 Programming Language AWESOME Lists
 
 | Language                               | README                                                        | Total |
 | :----------------------------------- | :------------------------------------------------------------ | :---- |
@@ -11,7 +11,7 @@
 | [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100   |
 | [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100   |
 
-## Required Reading Before Contributing Code
+## 📖 Required Reading Before Contributing Code
 
 Contributions of excellent open-source libraries are welcome! You only need to submit the meta-information file of the recommended library, which is organized in YML format.
 
@@ -42,7 +42,7 @@ You may be unsure about the content description or the category. It doesn't matt
 
 Even after merging, you can still raise an ISSUE or Discussion to discuss the content.
 
-## Contribution Methods
+## 🤝 Contribution Methods
 
 We recommend the following three contribution methods:
 
@@ -50,7 +50,7 @@ We recommend the following three contribution methods:
 2.  **Contribute through the standard PR process** - Suitable for more complex modifications, such as re-adjusting the library's category.
 3.  **Contribute through Issues** - If you are unsure how to create a pull request.
 
-### 1. Submit a PR through the GitHub website interface
+### Method 1: Submit a PR through the GitHub website interface
 
 This method is ideal for small contributions:
 
@@ -69,7 +69,7 @@ This method is ideal for small contributions:
 
 Maintainers will review your pull request and provide feedback if necessary, and merge it if it meets the standards.
 
-### 2. Contribute through the standard PR process
+### Method 2: Contribute through the standard PR process
 
 This method is more suitable for larger contributions, such as re-adjusting the library's category, or if you prefer to use a local development environment.
 
@@ -135,14 +135,18 @@ x ws gen go
 
 This will generate the `go/README.md` file, allowing you to view your changes.
 
-### 3. Contribute through Issues
+### Method 3: Contribute through Issues
 
 If you are unsure how to create a pull request, you can suggest a new library by creating an issue.
 Although this is the easiest method, it is strongly recommended to contribute through a pull request. Please refer to the steps and demonstrations above.
 
 In addition, if you encounter problems during the PR process, you can join the x-cmd user group for assistance.
 
-[TODO: add 微信群和TG群的照片]
+- **Wechat**
+
+![wechat](./assets/wechat.png)
+
+- ![telegram](./assets/telegram.png) **[Telegram](https://t.me/x_cmd)**
 
 **Initiate Issue Steps**
 
