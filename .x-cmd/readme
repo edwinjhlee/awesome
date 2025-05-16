@@ -1,0 +1,29 @@
+# using deno script to generate data
+
+(
+main_lang(){(
+    cd "${wsroot}/lang/$1"
+    for d in ./*; do
+        [ -d "$d" ] || continue
+        (
+            cd "$d"
+        )
+    done
+)}
+
+main(){
+    wsroot="$(x wsroot)"
+    
+    main_lang go
+    main_lang python
+
+    main_lang node
+    main_lang deno
+
+    main_lang rust
+    main_lang zig
+}
+
+main "$@"
+)
+
