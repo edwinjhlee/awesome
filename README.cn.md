@@ -1,6 +1,6 @@
 # AWESOME 列表
 
-## 编程语言 AWESOME 列表
+## 💻 编程语言 AWESOME 列表
 
 | 语言                               | README                                                        | 总数   |
 | :----------------------------------- | :------------------------------------------------------------ | :----- |
@@ -11,7 +11,7 @@
 | [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100    |
 | [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100    |
 
-## 贡献代码前必读
+## 📖 贡献代码前必读
 
 欢迎贡献你认为优秀的开源库！ 你只需要提交所推荐的库的元信息文件，这个文件以 YML 格式组织。
 
@@ -42,7 +42,7 @@ desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空�
 
 即使合并之后，你仍可以就该项内容发 ISSUE 或者 Discussion 进行讨论。
 
-## 贡献方式
+## 🤝 贡献方式
 
 我们推荐以下三种贡献方式：
 
@@ -50,7 +50,7 @@ desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空�
 2.  **通过标准 PR 流程贡献** - 适合更复杂的修改，例如重新调整库的分类。
 3.  **通过 Issues 贡献** - 如果你不确定如何创建 pull request。
 
-### 1. 通过 GitHub 网站界面提交 PR
+### 方式一：通过 GitHub 网站界面提交 PR
 
 此方法非常适用于小型贡献：
 
@@ -69,7 +69,7 @@ desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空�
 
 维护人员将审查您的 pull request，并在必要时提供反馈，如果符合标准，则会合并它。
 
-### 2. 通过标准 PR 流程贡献
+### 方式二：通过标准 PR 流程贡献
 
 此方法更适合于较大的贡献，例如重新调整库的分类，或者如果您喜欢使用本地开发环境。
 
@@ -135,14 +135,18 @@ x ws gen go
 
 这将生成 `go/README.md` 文件，允许您查看您的更改。
 
-### 3. 通过 Issues 贡献
+### 方式三：通过 Issues 贡献
 
 如果您不确定如何创建 pull request，您可以通过创建 issue 来建议新的库。
 虽然这是最简单的方法，但强烈建议通过 pull request 贡献。请参考上面的步骤和演示。
 
-另外, 如果你在 PR 过程中遇到问题, 可以加入 x-cmd 的用户群寻求协助。
+另外, 如果你在 PR 过程中遇到问题, 可以加入 x-cmd 的用户群寻求协助:
 
-[TODO: add 微信群和TG群的照片]
+- 微信群
+
+![wechat](./assets/wechat.png)
+
+- ![telegram](./assets/telegram.png) **[Telegram](https://t.me/x_cmd)**
 
 **发起 Issue 步骤**
 
