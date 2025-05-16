@@ -11,56 +11,79 @@
 | [Java](https://a.x-cmd.com/java)     | [README](https://github.com/edwinjhlee/awesome/lang/java)     | 100    |
 | [Kotlin](https://a.x-cmd.com/kotlin) | [README](https://github.com/edwinjhlee/awesome/lang/kotlin)   | 100    |
 
-## 贡献
+## 贡献代码前必看
 
-有三种方式可以为此优秀列表做出贡献：
+用户只需要提交所推荐的库的元信息文件, 这个文件是以 YML 方式组织.
 
-1.  **使用 GitHub 网站（推荐）**
-2.  **使用 Pull Requests（推荐）**
-3.  **使用 Issues（最简单）**
+### 每项 Library 的组织
 
-### 1. 通过 GitHub 网站贡献 PR
+以 go 生态的 github.com/urfave/cli 为例.
 
-此方法适用于小型贡献，不需要任何本地设置。
+1. `github.com/urfave/cli` 定义了托管网站( 一般为 github.com ), 用户名( urfave), 以及库名( cli )
+2. 这个库 归类为 `cli`
+3. 所以, 关于这个库的信息将存放在 `lang/go/cli/cli-[urfave].yml` 这个文件:
+   1. 格式是: `lang/<语言>/<分类, 可能不止一层>/<库名>-[<用户名>].yml`
+   2. 如果用户并不是注册在 github.com, 例如 codeberg.org, 那么名称则是 `lang/go/cli/cli-[urfave][codeberg.org].yml`
+
+### 库的 YML 文件格式
+
+虽然是 YML 格式, 但实际格式很简单, 仅是 KEY: VALUE 对. 同样以 `urfave/cli` 为例
+
+```yml
+name: cli
+repo: github.com/urfave/cli
+desc: A simple, fast, and fun package for building command line apps in Go
+desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空。
+```
+
+### 部分内容不确定, 怎么办 ? -- 不用怕, 大胆发 ~
+
+你可能不确定内容描述, 或者不确定分类. 没关系, 大胆按照你认为最好的形式贡献并提交.
+AWESOME 并不是一个代码库, 因此我们的管理非常宽松. 管理者可以先合并, 后面马上进行修改; 当然, 如果贡献内容值得商榷, 我们也可以在 PR过程中沟通. 因此, 不用担忧, 请尽管提交你心仪的库 ~
+
+即使合并之后, 你仍可以就该项内容发 ISSUE 或者 Discussion 进行讨论.
+
+## 直接通过 GitHub 网站界面来贡献 PR - 适合提交新的库, 或者修改库的描述
+
+我们希望用户以 PR 形式贡献代码. 如今 Github 官网已经提供非常方便的使用界面来简化贡献. 
+
+此方法非常适用于小型贡献:
+
+1. 提交一个新的库, 那么仅需要提交一个该库的 YML 文件.
+2. 修改库的描述, 或者增加更多语言的介绍
+
+我们以提交一个新的库为例, 以 urfave/cli 为例:
 
 1.  **登录：** 确保您已登录到您的 GitHub 帐户。
 2.  **创建新文件：**
-    *   点击 "Add file" -> "Create new file"。 如果您尚未 fork 该存储库到您的帐户，系统将提示您 fork。
-3.  **文件命名：**
-    *   文件路径应遵循以下模式：`[category]-[repo_owner].yml`。
-    *   **示例：** 对于分类为 `cli` 的 `github.com/urfave/cli`，文件名将为 `cli-[urfave].yml`。
-4.  **文件内容：**
-    *   使用以下 YAML 格式：
-
-    ```yaml
-    name: urfave/cli
-    repo: github.com/urfave/cli
-    desc: A simple, fast, and fun package for building command line apps in Go
-    desc-zh:  # 可选：描述的中文翻译。 如果您无法提供，请留空。
-    ```
-5.  **提交更改：** 使用描述性消息提交新文件。
-6.  **创建 Pull Request：**
-    *   转到 [https://github.com/edwinjhlee/awesome/pulls](https://github.com/edwinjhlee/awesome/pulls) 并点击 "New pull request"。
-    *   选择您 fork 的存储库中包含您的更改的分支。
-    *   为您的 pull request 添加清晰的标题和描述。
+    - 点击 "Add file" -> "Create new file"。 
+    - 如果您尚未 fork 该存储库到您的帐户，系统将提示您 fork。
+3.  **编写库的信息文件**
+    - 文件名将为 `cli-[urfave].yml`。
+    - 参考上文的 YML 内容格式, 填写 
+4.  **提交更改：** 使用描述性消息提交新文件。
+5.  **创建 Pull Request：**
+    - 转到 [https://github.com/edwinjhlee/awesome/pulls](https://github.com/edwinjhlee/awesome/pulls) 并点击 "New pull request"。
+    - 选择您 fork 的存储库中包含您的更改的分支。
+    - 为您的 pull request 添加清晰的标题和描述。
 
 维护人员将审查您的 pull request，并在必要时提供反馈，如果符合标准，则会合并它。
 
-### 2. 通过 Pull Requests 贡献（推荐）
+## 通过标准 PR 流程来贡献 - 适合更复杂的修改
 
-此方法更适合于较大的贡献，或者如果您喜欢使用本地开发环境。
+此方法更适合于较大的贡献, 例如重新调整库的分类, 或者，或者如果您喜欢使用本地开发环境。
 
-**步骤 1：Fork 和克隆**
+### 步骤 1：Fork 和克隆
 
 1.  将此存储库 fork 到您的 GitHub 帐户。
 2.  将 fork 的存储库克隆到您的本地计算机：
 
-    ```bash
-    git clone https://github.com/<your-username>/awesome.git
-    cd awesome
-    ```
+```bash
+git clone https://github.com/<your-username>/awesome.git
+cd awesome
+```
 
-**步骤 2：创建新文件并添加内容**
+### 步骤 2：创建新文件并添加内容
 
 1.  **文件位置：** 在 `lang` 目录中相应的类别目录中创建一个新的 YAML 文件。
     *   **示例：** 对于 `github.com/urfave/cli`（Go 库，类别：`cli`），文件路径将为 `lang/go/cli/cli-[urfave].yml`。
@@ -112,11 +135,12 @@ x ws gen go
 
 这将生成 `go/README.md` 文件，允许您查看您的更改。
 
-### 3. 通过 Issues 贡献（最简单）
+## 通过 Issues 贡献
 
 如果您不确定如何创建 pull request，您可以通过创建 issue 来建议新的库。
+但我们强烈建议你, 
+虽然这是最简单的方法，但强烈建议通过 pull request 贡献。
 
 1.  在此处创建一个新的 issue [here](https://github.com/edwinjhlee/awsome/issues) 并选择 "[new library]" 模板。
 2.  填写包含存储库名称和简短描述的表单。
 
-虽然这是最简单的方法，但强烈建议通过 pull request 贡献。
