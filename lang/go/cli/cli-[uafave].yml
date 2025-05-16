@@ -3,5 +3,6 @@ name: urfave/cli
 repo: github.com/urfave/cli
 
 desc: A simple, fast, and fun package for building command line apps in Go
-desc-zh: 一个简单、快速、有趣的 Go 命令行应用程序构建包
 
+desc-zh: 一个简单、快速、有趣的 Go 命令行应用程序构建包
+desc-zh-hant: 一個簡單、快速、有趣的 Go 命令行應用程序構建包
