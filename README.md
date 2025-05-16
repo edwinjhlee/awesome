@@ -1,6 +1,6 @@
 # Awesome Lists
 
-## Navigate the AWESOME List
+## 👀 Navigate the AWESOME List
 
 ### Github Repo
 
